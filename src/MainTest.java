@@ -23,11 +23,13 @@ class MainTest {
 
     @org.junit.jupiter.api.Test
     void afternoonGreeting() {
+
         assertEquals("下午好, Mac Miller!", Main.afternoonGreeting("Mac Miller"));
     }
 
     @org.junit.jupiter.api.Test
     void triple() {
+
         assertEquals("oohbabyoohbabyoohbaby", Main.triple("oohbaby"));
     }
 
@@ -38,21 +40,25 @@ class MainTest {
 
     @org.junit.jupiter.api.Test
     void roundPositiveValueToNearestInteger() {
+
         assertEquals(9, Main.roundPositiveValueToNearestInteger(8.5));
     }
 
     @org.junit.jupiter.api.Test
     void roundPositiveValueToNearestIntegerTwo() {
+
         assertEquals(8, Main.roundPositiveValueToNearestInteger(8.49));
     }
 
     @org.junit.jupiter.api.Test
     void roundNegativeValueToNearestInteger() {
+
         assertEquals(-8, Main.roundNegativeValueToNearestInteger(-8.49));
     }
 
     @org.junit.jupiter.api.Test
     void roundNegativeValueToNearestIntegerTwo() {
+
         assertEquals(-9, Main.roundNegativeValueToNearestInteger(-8.5));
     }
 
