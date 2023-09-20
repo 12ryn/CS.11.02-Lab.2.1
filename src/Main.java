@@ -77,7 +77,6 @@ public class Main {
     // 7. roundPositiveValueToNearestInteger
     public static int roundPositiveValueToNearestInteger(double toBeRoundedPositive) {
         if (toBeRoundedPositive % 1 < 0.5) {
-            int newInt = (int) toBeRoundedPositive;
             return (int) toBeRoundedPositive;
         }
         return (int) toBeRoundedPositive + 1;
@@ -86,7 +85,6 @@ public class Main {
     // 8. roundNegativeValueToNearestInteger
     public static int roundNegativeValueToNearestInteger(double toBeRoundedNegative) {
         if (toBeRoundedNegative % -1 <= -0.5) {
-            int newInt = (int) toBeRoundedNegative;
             return (int) toBeRoundedNegative - 1;
         }
         return (int) toBeRoundedNegative;
